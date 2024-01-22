@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:'Inter', sans-serif;
+  height: 100vh;
+}
+
+header{
+  background: #F55A5A;
+  color: #FFF;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+header > img{
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+header > h1{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -7.5%;
+}
+
+.card--list{
+  max-width: 470px;
+  width: 100%;
+  margin: 45px auto 0;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  color: #2b283a;
+  padding: 18px 0;
+}
+
+.mainimg{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.locationinfo{
+  display: flex;
+  margin-bottom: 0;
+}
+
+.locationinfo span{
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  margin-right: 12px;
+}
+
+.locationinfo span p {
+  color: #2B283A;
+  font-size: 10.24px;
+  font-weight: 400;
+  letter-spacing: 1.741px;
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+
+.locationinfo a{
+  color: #918E9B;
+  font-size: 10.24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  padding-left: 5px;
+}
+
+.locationinfo a:hover{
+  color: #F55A5A;
+}
+
+.card h3{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 7px;
+  margin-top: -8px;
+}
+
+.card h4{
+  font-weight: 700;
+  font-size: 10.24px;
+  margin-bottom: 4px;
+}
+
+.dcpt{
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 150%;
+  word-wrap: break-word;
+  padding-right: 10px;
+}
+
+.hr{
+  border-top: 1px solid #d1d0d7;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 10px;
+  background-color: #d1d0d7;
+}
